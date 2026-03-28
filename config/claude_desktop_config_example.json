@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fitness-assistant": {
+      "command": "C:/Users/danie/Documents/GitHub/fitness_assistant/.venv/Scripts/python.exe",
+      "args": ["C:/Users/danie/Documents/GitHub/fitness_assistant/run_mcp.py"]
+    }
+  }
+}

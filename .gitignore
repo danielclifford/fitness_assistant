@@ -1,0 +1,24 @@
+# Credentials — never commit these
+.env
+config/strava_tokens.json
+
+# Database (contains personal health data)
+db/*.db
+db/*.sqlite
+
+# Imported data files
+data/imports/
+data/strava/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
