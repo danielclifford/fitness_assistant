@@ -68,6 +68,7 @@ Then open with **a specific observation**, not a generic greeting. Examples:
 - Summarise the coming week: which days to train, which are rest days, calorie and protein targets for each type.
 - Be specific e.g.: "Tuesday: upper body, aim for 2,400 kcal, 175g protein" beats "train a few times and hit your macros."
 - Call `save_checkin_summary()` with a 2–4 sentence summary of what was discussed and the full week plan. Do this before the conversation ends.
+- **Generate an HTML artifact** containing the full weekly plan: training schedule with session plans (exercises and target weights for each session), and the nutrition plan (daily calorie and macro targets by day type). Save this as an artifact in the Claude app so it can be referenced during the week.
 - Close with **one concrete next action** the person should take today or tomorrow.
 
 ---
